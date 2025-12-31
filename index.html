@@ -323,6 +323,10 @@
         .photo-card:nth-child(7) { animation-delay: 0.7s; }
         .photo-card:nth-child(8) { animation-delay: 0.8s; }
         .photo-card:nth-child(9) { animation-delay: 0.9s; }
+        .photo-card:nth-child(10) { animation-delay: 1s; }
+        .photo-card:nth-child(11) { animation-delay: 1.1s; }
+        .photo-card:nth-child(12) { animation-delay: 1.2s; }
+        .photo-card:nth-child(13) { animation-delay: 1.3s; }
 
         @keyframes fadeInUp {
             from {
@@ -716,15 +720,20 @@
             "Smiles That Light Up The World ✨",
             "Together Forever 💕",
             "Unforgettable Times ⭐",
-            "Blessed With Love 🙏"
+            "Blessed With Love 🙏",
+            "Golden Moments Shared 💛",
+            "Forever In Our Hearts 💖",
+            "Magic of Togetherness ✨",
+            "Love Without Limits 💗"
         ];
         
         const photoDates = [
             "Jan 2025", "Feb 2025", "Mar 2025", "Apr 2025", "May 2025",
-            "Jun 2025", "Jul 2025", "Aug 2025", "Sep 2025"
+            "Jun 2025", "Jul 2025", "Aug 2025", "Sep 2025", "Oct 2025",
+            "Nov 2025", "Dec 2025", "New Year 2026"
         ];
         
-        for (let i = 1; i <= 9; i++) {
+        for (let i = 1; i <= 13; i++) {
             const photoCard = document.createElement('div');
             photoCard.className = 'photo-card';
             
